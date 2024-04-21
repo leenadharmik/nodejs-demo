@@ -25,3 +25,4 @@ pipeline {
                 sh 'docker push leenadharmik/nodeapp:$BUILD_NUMBER'
             }
         }
+    }
